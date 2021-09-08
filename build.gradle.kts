@@ -1,9 +1,9 @@
 plugins {
-    kotlin("jvm") version "1.5.10"
-    id("io.izzel.taboolib") version "1.12"
+    id("io.izzel.taboolib") version "1.26"
+    id("org.jetbrains.kotlin.jvm") version "1.5.10"
 }
 
-group = "io.insinuate"
+group = "io.insinuate.fastscript"
 version = "2.0-PRE-1"
 
 repositories {
@@ -48,9 +48,10 @@ taboolib {
             name("PlaceholderAPI").optional(true)
         }
     }
+    relocate(name.toLowerCase(), group.toString().toLowerCase())
 
     classifier = null
-    version = "6.0.0-pre30"
+    version = "6.0.1-8"
 }
 
 dependencies {
