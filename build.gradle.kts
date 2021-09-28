@@ -51,7 +51,7 @@ taboolib {
     relocate(name.toLowerCase(), group.toString().toLowerCase())
 
     classifier = null
-    version = "6.0.2-7"
+    version = "6.0.3-5"
 }
 
 dependencies {
