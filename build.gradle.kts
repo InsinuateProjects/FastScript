@@ -1,5 +1,5 @@
 plugins {
-    id("io.izzel.taboolib") version "1.26"
+    id("io.izzel.taboolib") version "1.31"
     id("org.jetbrains.kotlin.jvm") version "1.5.10"
 }
 
@@ -51,7 +51,7 @@ taboolib {
     relocate(name.toLowerCase(), group.toString().toLowerCase())
 
     classifier = null
-    version = "6.0.3-5"
+    version = "6.0.3-23"
 }
 
 dependencies {
